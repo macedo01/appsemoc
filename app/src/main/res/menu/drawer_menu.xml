@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Apresentação"></item>
+
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/ic_project"
+            android:title="Projeto"></item>
+
+        <item
+            android:id="@+id/nav_thematic_axis"
+            android:icon="@drawable/ic_thematic_axis"
+            android:title="Eixos Tematicos"></item>
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Programação"></item>
+
+        <item
+            android:id="@+id/nav_enroll"
+            android:icon="@drawable/ic_enroll"
+            android:title="Inscrições"></item>
+
+        <item
+            android:id="@+id/nav_cronograma"
+            android:icon="@drawable/ic_timeline"
+            android:title="Cronograma"></item>
+
+        <item
+            android:id="@+id/nav_contatos"
+            android:icon="@drawable/ic_contact"
+            android:title="Contatos"></item>
+
+        <item
+            android:id="@+id/nav_certificados"
+            android:icon="@drawable/ic_certificate"
+            android:title="Certificados"></item>
+
+
+    </group>
+
+</menu>
