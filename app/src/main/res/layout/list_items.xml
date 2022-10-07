@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:text="Titulo"
+        android:textColor="#172639"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:justificationMode="inter_word"
+        android:text="Vestibulum dictum metus massa, suscipit mollis mauris efficitur at. Sed viverra nulla risus, sed scelerisque ex mattis sed. Quisque dui tellus, euismod sed tellus nec, vulputate pellentesque enim. Quisque ante orci, efficitur vel augue lacinia, eleifend congue dolor. Mauris efficitur ultrices urna, a eleifend arcu feugiat non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum pretium odio sit amet convallis. Donec sed interdum odio, vel auctor urna. Donec auctor odio eu massa fermentum, eget pellentesque quam fermentum."
+        android:textColor="#303030"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
