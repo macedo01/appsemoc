@@ -2,14 +2,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@android:color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
         android:text="EIXOS TEMATICOS"
-        android:textSize="30sp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        ></TextView>
+        android:padding="20dp"
+        android:text="Eixo 1: Racismo Ambiental, Refugiados Ambientais, Politícas Públicas e Inclusão Social
+Eixo 2 : Diversidade, Alteridade e Educação Inclusiva
+
+Eixo 3 : Povos Tradicionais e o Direito ao Território
+
+Eixo 4 : Educação Bioética e Direito Universal à Vida
+
+Eixo 5 : O Papel da Comunidade e da Família na Educação Inclusiva"
+        android:textSize="15sp"/>
 
 </RelativeLayout>

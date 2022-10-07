@@ -2,14 +2,27 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@android:color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PROJECT"
         android:textSize="30sp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A cultura institucional de integração das diferentes áreas do conhecimento alicerça o portfólio acadêmico da UCSal. Para a 25ª edição, a SEMOC traz como temática central “Educação Inclusiva”, que possibilita experienciar a indissociabilidade entre ensino, pesquisa e extensão e entre as grandes áreas do conhecimento:  Ciências Exatas e da Terra, Ciências Naturais, Engenharia / Tecnologia, Ciências da Saúde, Ciências Agrárias, Ciências Sociais, Ciências Humanas, Linguística, Letras e Artes.
+
+Este tema se sincroniza, assim, com a diretriz institucional de pautar agendas que privilegiam reflexões de relevância social, que sejam efetivas e inovadoras na perspectiva de soluções para problemas reais que afetam a vida humana, sempre enriquecidas por abordagens multidisciplinares, que abrangem as várias concepções de produção do conhecimento."
+        android:textSize="15sp"
         android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
         ></TextView>
 
 </RelativeLayout>

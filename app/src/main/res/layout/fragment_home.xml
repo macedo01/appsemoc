@@ -2,14 +2,39 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@android:color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOME"
+        android:text="APRESENTAÇÃO"
+        android:layout_centerHorizontal="true"
         android:textSize="30sp"
-        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Semana de Mobilização Científica – SEMOC – é uma atividade promovida anualmente pela Universidade Católica do Salvador (UCSAL), integrando a programação regular de atividades do calendário acadêmico desde 1998, sendo organizada e executada com a participação de todos os segmentos da comunidade acadêmica (docentes, discentes e funcionários), e já é uma tradição na cidade do Salvador.
+
+Dentre seus principais objetivos, a SEMOC pretende estimular e socializar as iniciativas no campo da pesquisa científica e da extensão desenvolvidas na Universidade, contribuir para a conscientização da comunidade acadêmica sobre a importância da integração entre ensino, pesquisa e extensão, promover o intercâmbio intra e interinstitucional em torno da produção do conhecimento e das ações comunitárias, e fomentar a difusão e o fortalecimento da diversidade científica no Estado da Bahia, como também no âmbito nacional e internacional."
+        android:textSize="15sp"
+       android:layout_centerHorizontal="true"
+        android:padding="20sp"
+        android:layout_marginTop="30dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neste já tradicional evento anual, docentes, discentes, funcionários, pesquisadores e comunidades realizam atividades diversas em torno das temáticas selecionadas, anualmente, que inclui conferências, mesas redondas, jornadas de pesquisa, debates, apresentações de trabalho, minicursos, oficinas e atividades culturais.
+
+A sucessão de temáticas centrais da série SEMOC demonstra um encadeamento lógico e tradutor do mérito privilegiado pela UCSal, circunscrito em preocupações explícitas com questões sociais e com princípios basilares de cunho universal, que articula-se, dessa forma, com a proposta pedagógica institucional, como, também, evidencia a tendência de colocar no centro dos debates temas de ampla abrangência científica e de abordagem interdisciplinar. "
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:padding="20sp"
+        android:layout_marginTop="380dp"
         ></TextView>
 
 </RelativeLayout>

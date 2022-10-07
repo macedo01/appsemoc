@@ -2,14 +2,26 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@android:color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
         android:text="CONTATOS"
-        android:textSize="30sp"
+        android:textSize="30sp"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        ></TextView>
+
+        android:padding="20dp"
+        android:text="E-mail: semoc@ucsal.br
+
+Tel.: (71) 3206-7882"
+        android:textSize="15sp"></TextView>
 
 </RelativeLayout>
